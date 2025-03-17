@@ -1,0 +1,92 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Potta One" href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" />
+    <mj-font name="Poly" href="https://fonts.googleapis.com/css2?family=Poly&display=swap" />
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" />
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  </mj-head>
+  </mj-head>
+  <mj-body background-color='#FFF'>
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" font-family="Poly, serif" font-size="25px" color="#202020">
+          Step into the world of efficient communication!
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align='center' font-family="Potta One, cursive" font-size="27px" color="#173F4E">
+          WISPERING PINES
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" font-family="Playfair Display, serif" font-size="18px" line-height="142%" font-weight="600">
+          Welcome to the future of emails! By using the Whispering Pines Editor, you get access to dynamic and responsive emails tailored for the best user experience.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="100%">
+        <mj-text align="center" font-family="Poppins, sans-serif" font-size="14px" font-weight="400" line-height="160%">
+          This email layout leverages advanced email technologies, ensuring optimal performance on a variety of email platforms. Experience seamless email integration with platforms like WhisperMail, PinePost, and PineGrid. For a full range of our supported platforms and detailed guides, visit our support center.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section> 
+      <mj-column width="100%">
+        <mj-text font-family="Poppins, sans-serif" font-size="18px" font-weight="700">
+          Greetings, Emily!
+        </mj-text>
+        <mj-text font-family="Poppins, sans-serif" font-size="14px" line-height="22.4px" font-weight="400">
+          We're thrilled to have you join the "Whispering Pines Subscribers." I'm Anna, and I'll be guiding you through our informative newsletters and updates.
+          <br>
+          • Stay informed with the latest trends and best practices in the world of email communication.
+          <br>
+          • Choose your preferred reading schedule: whether daily, weekly, or monthly, customize your experience with us.
+          <br>
+          • We value your thoughts and feedback. Reach out at <a href="mailto:hello@whisperpines.com" style="color: inherit;">hello@whisperpines.com</a> for any questions or suggestions.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+    <mj-section>
+      <mj-column width="40%">
+        <mj-image src="./media/Rectangle 4333.png" width="208px" />
+        <mj-text align='left' font-family="Playfair Display, serif" font-size="15px" font-weight="500">
+          The Future of Dynamic Emails with Whispering Pines
+        </mj-text>
+        <mj-text align='left' font-family="Poppins, sans-serif" font-size="11px" line-height="156%" font-weight="400">
+          Delve into the mechanics of creating responsive emails and the benefits it brings to your campaigns.
+        </mj-text>
+      </mj-column>
+      <mj-column width="40%">
+        <mj-image src="./media/Rectangle 4335.png" width="208px" />
+        <mj-text align='left' font-family="Playfair Display, serif" font-size="15px" font-weight="500">
+          Crafting the Ideal Confirmation Email
+        </mj-text>
+        <mj-text font-family="Poppins, sans-serif" font-size="11px" line-height="156%" font-weight="400">
+          Learn the intricacies of constructing a confirmation email that ensures clarity and prompts action.
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+
+    <mj-section background-color='#173F4E'>
+
+      <mj-column width="100%">
+        <mj-button background-color='#FFFFFF'>
+          <a href="https://www.whisperingpines.com" style="text-decoration: none; color: #173F4E">Explore More</a>
+        </mj-button>
+      </mj-column>
+
+    </mj-section>
+  </mj-body>
+</mjml>

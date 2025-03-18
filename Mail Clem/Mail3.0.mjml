@@ -11,7 +11,7 @@
   <mj-section padding-bottom="0px">
   <mj-column width="100%">
     <mj-text align="center" font-family="Inter" font-size="20px" color="#95CDE8" font-weight="700">
-    LearnVille 
+    LearnVilles
     </mj-text>
   </mj-column>
 </mj-section>

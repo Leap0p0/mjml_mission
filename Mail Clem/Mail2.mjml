@@ -1,0 +1,262 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Potta One" href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" />
+    <mj-font name="Poly" href="https://fonts.googleapis.com/css2?family=Poly&display=swap" />
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" />
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  </mj-head>
+  </mj-head>
+    <mj-body background-color="#FFF">
+
+  <mj-section padding-bottom="0px">
+  <mj-column width="100%">
+    <mj-text align="center" font-family="Potta One" font-size="20.74px" color="#173F4E" font-weight="400">
+    VOYAGE CHRONICALS 
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+
+ <mj-section padding-top="0px">
+  <mj-column width="100%">
+  <mj-image
+     src="./image/PhotoA.png"
+     alt="HAHAH nul pue la pisse"
+     width="668px" height="308px"/>
+
+  </mj-column>
+</mj-section>
+
+
+
+ <mj-section padding-top="0px">
+  <mj-column width="100%">
+    <mj-text align="center" font-family="Inter" font-size="24px" color="#323232" font-weight="700">
+    Dive into the Journey with Voyage Chronicles
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+
+<mj-section padding-top="0px">
+  <mj-column width="80%">
+    <mj-text align="center" font-family="Inter" font-size="13px" color="#383838" font-weight="400">
+Embark on a picturesque journey as we take you through untouched terrains, culinary delights, and immersive experiences from around the globe. Our aim? To ignite the wanderlust in you and provide insights that inspire your next adventure.    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+<mj-section padding-top="0px">
+  <mj-column width="100%">
+  <mj-button color="#173F4E" background-color="#173F4E" font-family="Arial" font-size="11px" color="#FFFFF" font-weight="700">
+
+  <a href="https://google.com" style="text-decoration: none; color:#FFFFF"> Explore More Blogs </a>
+
+  </mj-button>
+  </mj-column>
+</mj-section>
+
+
+
+
+
+
+
+
+<mj-section padding-top="0px">
+  <mj-column width="100%">
+    <mj-text align="center" font-family="Inter" font-size="24px" color="#323232" font-weight="700">
+      Weekly Highlights
+      </mj-text>
+  </mj-column>
+</mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mj-section padding-top="0px">
+  <mj-column width="50%">
+
+    <mj-image
+      src="./image/PhotoB.png"
+      alt="HAHAH nul pue la pisse"
+      width="224.4px" height="162.07px" />
+
+      <mj-text align="center" font-family="Open Sans" font-size="15.24px" color="#F9AA2B" font-weight="600">
+        Mountains & Valleys
+        </mj-text>
+
+        <mj-text align="center" font-family="Open Sans" font-size="12.47px" color="#272727" font-weight="400">
+15th August 20XX
+Traverse the rugged terrains of Alpine ranges as we uncover hidden gems and majestic viewpoints.
+</mj-text>
+  </mj-column>
+
+
+
+
+
+
+<mj-column width="50%">
+
+  <mj-image
+     src="./image/PhotoC.png"
+     alt="HAHAH nul pue la pisse"
+     width="224.4px" height="162.07px"/>
+
+     <mj-text align="center" font-family="Open Sans" font-size="15.24px" color="#F9AA2B" font-weight="400">
+        Tropical Delights
+        </mj-text>
+
+        <mj-text align="center" font-family="Open Sans" font-size="12.47px" color="#272727" font-weight="400">
+16th August 20XX
+Dive deep into the turquoise waters, lounge by the beach, and relish local seafood delights
+</mj-text>
+</mj-column>
+</mj-section>
+
+
+
+<mj-section>
+  <mj-column width="100%">
+    <mj-text align="center" font-family="Inter" font-size="24px" color="#323232" font-weight="700">
+Featured Journeys:   
+</mj-text>
+</mj-column>
+</mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mj-section>
+  <mj-column width="33.3%">
+
+    <mj-image
+      src="./image/Foret1.png"
+      alt="HAHAH nul pue la pisse"
+      width="170.65px" height="123.25px" />
+
+      <mj-text align="center" font-family="Open Sans" font-size="11.59px" color="#F9AA2B" font-weight="600">
+        Hidden Trails
+        </mj-text>
+
+        <mj-text align="center" font-family="Open Sans" font-size="9.48px" color="#272727" font-weight="400">
+Step into the wilderness as we guide you through untouched forest trails and introduce you to the flora and fauna.
+</mj-text>
+</mj-column>
+
+
+
+
+
+
+
+
+
+<mj-column width="33.3%">
+
+  <mj-image
+     src="./image/Desert.png"
+     alt="HAHAH nul pue la pisse"
+     width="170.65px" height="123.25px"/>
+
+     <mj-text align="center" font-family="Open Sans" font-size="11.59px" color="#F9AA2B" font-weight="600">
+Desert Safaris        
+</mj-text>
+
+        <mj-text align="center" font-family="Open Sans" font-size="9.48px" color="#272727" font-weight="400">
+16th August 20XX
+Dive deep into the turquoise waters, lounge by the beach, and relish local seafood delights
+</mj-text>
+</mj-column>
+
+
+
+
+
+
+
+<mj-column width="33.3%">
+
+    <mj-image
+      src="./image/Plage.png"
+      alt="HAHAH nul pue la pisse"
+      width="170.65px" height="123.25px" />
+
+      <mj-text align="center" font-family="Open Sans" font-size="11.59px" color="#F9AA2B" font-weight="600">
+Island Getaways        
+</mj-text>
+
+        <mj-text align="center" font-family="Open Sans" font-size="9.48px" color="#272727" font-weight="400">
+Get a taste of island life, explore coral reefs, and indulge in water sports.
+</mj-text>
+  </mj-column>
+  </mj-section>
+
+
+<mj-section background-color="#173F4E">
+<mj-column width="100%">
+
+<mj-text align="center" font-family="Poppins" font-size="14px" color="#FFFFFF" font-weight="400">
+  Connect and Explore Engage with our journey and stay updated on the latest expeditions, travel tips, and stories. Your next inspiration might be just a click away!
+</mj-text>
+</mj-column>
+</mj-section>
+
+<mj-section background-color="#173F4E"padding-left="25%" padding-right="25%"> 
+    
+    
+    <mj-group>
+      <mj-column width="25%" vertical-align="middle">
+    <mj-image src="./image/facebook.png" width='36px' height='36px' alt="pas de co zebi" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="25%" vertical-align="middle">
+    <mj-image src="./image/Twitter.png" width='36px' height='36px' alt="pas de co zebi" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="25%" vertical-align="middle">
+    <mj-image src="./image/Insta.png" width='36px' height='36px' alt="pas de co zebi" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="25%" vertical-align="middle">
+    <mj-image src="./image/YT.png" width='36px' height='36px' alt="pas de co zebi" padding="0"/>
+    </mj-column>
+
+  </mj-section>
+
+<mj-section background-color='#173F4E'>
+      <mj-column width="100%">
+        <mj-text color='#FFFFFF' align="center" font-family="Poppins" font-size="10.93px" font-weight="400">
+You're part of this exciting journey because you've shown interest in <strong>"Voyage Chronicles."</strong> To explore more or change your preferences, click here.     
+</mj-text>
+</mj-column>
+  </mj-section>    
+    </mj-body>
+</mjml>

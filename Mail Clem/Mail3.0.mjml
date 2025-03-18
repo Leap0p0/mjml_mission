@@ -1,0 +1,140 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Potta One" href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" />
+    <mj-font name="Poly" href="https://fonts.googleapis.com/css2?family=Poly&display=swap" />
+    <mj-font name="Playfair Display" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap" />
+    <mj-font name="Poppins" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap" />
+  </mj-head>
+  <mj-body background-color="#FFF">
+
+
+  <mj-section padding-bottom="0px">
+  <mj-column width="100%">
+    <mj-text align="center" font-family="Inter" font-size="20px" color="#95CDE8" font-weight="700">
+    LearnVille 
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+<mj-section background-color="#FFF2DC" >
+  <mj-column width="100%">
+    <mj-image src="./image/Component 1.SVG" alt="HAHAH nul pue la pisse"
+    width="638px" height="173.47px" padding-left="0px" padding-right="0px" />
+
+  </mj-column>
+</mj-section>
+
+
+
+<mj-section padding-bottom="0px">
+  <mj-column>
+   <mj-image
+     src="./image/phrase et peluche.png"
+     alt="TU PUE LA PISSE"
+     width="1000px"/>
+
+  </mj-column>
+</mj-section>
+
+
+
+
+
+
+<mj-section padding-top="0px">
+  <mj-column>
+   <mj-image
+     src="./image/ELEPHANT.SVG"
+     alt="TU PUE LA PISSE"
+     width="1000px"/>
+
+  </mj-column>
+</mj-section>
+
+
+<mj-section>
+  <mj-column width="100%">
+    
+
+
+    <mj-text align="center" font-family="Work Sans" font-size="20px" color="#262626" font-weight="600">
+
+    Unearth more learning treasures in LearnVille
+    </mj-text>
+
+  </mj-column>
+</mj-section>
+
+
+
+
+<mj-section>
+  <mj-column width="50%">
+    <mj-image src="./image/terre et livre.png" alt="145 ? ez pour la tanche des iles. " />
+
+  </mj-column>
+
+
+
+
+
+  <mj-column width="50%">
+
+    <mj-text align="center" font-family="Work Sans" font-size="18px" color="#F87D75" font-weight="700" padding-bottom="0px">
+    Journey Through Knowledge 
+    </mj-text>
+
+    <mj-text align="center" font-family="Inter" font-size="12px" color="#262626" font-weight="500" padding-bottom="0px">
+    Books that inspire a thirst for knowledge. Children showcase their understanding with quizzes and tasks after every reading. 
+    </mj-text>
+
+
+
+  </mj-column>
+</mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  </mj-body>
+</mjml>

@@ -32,7 +32,6 @@
     </style>
     <![endif]-->
     
-    
     <style type="text/css">
       @media only screen and (min-width:480px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
@@ -48,18 +47,37 @@
 .moz-text-html .mj-column-per-50 { width:50% !important; max-width: 50%; }
 .moz-text-html .mj-column-per-90 { width:90% !important; max-width: 90%; }
 .moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
+
     </style>
     
   
     <style type="text/css">
     
     
-
     @media only screen and (max-width:480px) {
-      table.mj-full-width-mobile { width: 100% !important; }
-      td.mj-full-width-mobile { width: auto !important; }
+      .mobile-full-center {
+        width: 100% !important;
+        max-width: 100% !important;
+        display: block !important;
+        margin: 0 auto !important;
+        text-align: center !important;
+      }
+      /* Si besoin de cibler aussi le tableau interne */
+      .mobile-full-center table {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+      }
+      .mobile-full-center td,
+      .mobile-full-center div {
+        text-align: center !important;
+      }
+      .button-test {
+        width: 70% !important;
+        display: block      !important;
+        margin: 0 auto      !important;
+      }
     }
-  
     </style>
     <style type="text/css">
     
@@ -569,93 +587,88 @@
     
           <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:300px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:10px 25px;padding-left:29px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Helvetica Neue;font-size:18px;line-height:1.3;text-align:left;color:#FF0000;"
-      ><strong>EN WAGON POUR UNE <br> 
-                    RENTRÉE GOURMANDE !</strong></div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align="left" style="font-size:0px;padding:30px;padding-bottom:10px;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Helvetica Neue;font-size:16px;font-weight:400px;line-height:1.4;text-align:left;color:#008000;"
-      >Notre petit train salé va faire<br/>
-                voyager <b>les papilles des petits</b><br/>
-                comme des <b>grands !</b><br/>
-                Des <b>mini-cakes</b> façon wagons,<br/>
-                une recette aussi <b>rigolote</b> que <b>délicieuse</b><br/>
-                à faire avec les enfants après l'école !</div>
-    
-                </td>
-              </tr>
-            
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:250px;">
-              
-        <a
-           href="https://www.soignon.fr/recette-mini-cakes-au-chevre" target="_blank"
-        >
-          
-      <img
-         alt="Boutton je teste la recette" height="auto" src="./image/button-je-teste-la-recete.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
-      />
-    
-        </a>
-      
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
+            <div
+            class="mj-column-per-50 mj-outlook-group-fix mobile-full-center"
+            style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:50%;"
+          >
+            <table
+              border="0" cellpadding="0" cellspacing="0"
+              role="presentation"
+              style="vertical-align:middle;"
+              width="100%"
+            >
+              <tbody>
+                <tr>
+                  <td
+                    align="left"
+                    style="font-size:0px;padding:10px 25px;padding-left:29px;word-break:break-word;"
+                  >
+                    <div
+                      style="font-family:Helvetica Neue;font-size:18px;line-height:1.3;text-align:left;color:#FF0000;"
+                    >
+                      <strong>EN WAGON POUR UNE <br/> 
+                      RENTRÉE GOURMANDE !</strong>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="left"
+                    style="font-size:0px;padding:30px;padding-bottom:10px;word-break:break-word;"
+                  >
+                    <div
+                      style="font-family:Helvetica Neue;font-size:16px;font-weight:400;line-height:1.4;text-align:left;color:#008000;"
+                    >
+                      Notre petit train salé va faire<br/>
+                      voyager <b>les papilles des petits</b><br/>
+                      comme des <b>grands !</b><br/>
+                      Des <b>mini-cakes</b> façon wagons,<br/>
+                      une recette aussi <b>rigolote</b> que <b>délicieuse</b><br/>
+                      à faire avec les enfants après l'école !
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td
+                    align="center"
+                    style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;"
+                  >
+                    <table
+                      border="0" cellpadding="0" cellspacing="0"
+                      role="presentation"
+                      style="border-collapse:collapse;border-spacing:0px;"
+                    >
+                      <tbody>
+                        <tr>
+                          <td style="width:250px;">
+                            <a
+                              href="https://www.soignon.fr/recette-mini-cakes-au-chevre"
+                              target="_blank"
+                            >
+                              <img
+                                alt="Boutton je teste la recette"
+                                height="auto"
+                                class="button-test"
+                                src="./image/button-je-teste-la-recete.png"
+                                style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;"
+                                width="250"
+                              />
+                            </a>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
     
       
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#f1e0bf" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#f1e0bf;background-color:#f1e0bf;margin:0px auto;max-width:600px;">
+      <div  style="background:#f1e0bf;background-color:#f1e0bf;margin:0px auto;max-width:600px;padding-top: 50px;">
         
         <table
            align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#f1e0bf;background-color:#f1e0bf;width:100%;"
@@ -668,7 +681,7 @@
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:300px;" ><![endif]-->
             
       <div
-         class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
+         class="mobile-full-center mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
       >
         
       <table
@@ -729,7 +742,7 @@ Un <strong> équilibre sucré-salé </strong> qui  <strong>croustille,</strong>
         >
           
       <img
-         alt="Boutton je teste la recette" height="auto" src="./image/button-je-teste-la-recete.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
+         alt="Boutton je teste la recette" class="button-test" height="auto" src="./image/button-je-teste-la-recete.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
       />
     
         </a>

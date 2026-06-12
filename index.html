@@ -48,7 +48,7 @@
     <style type="text/css">
       @media only screen and (min-width:480px) {
         .mj-column-per-100 { width:100% !important; max-width: 100%; }
-.mj-column-per-80 { width:80% !important; max-width: 80%; }
+.mj-column-per-90 { width:90% !important; max-width: 90%; }
 .mj-column-per-45 { width:45% !important; max-width: 45%; }
 .mj-column-per-20 { width:20% !important; max-width: 20%; }
 .mj-column-per-50 { width:50% !important; max-width: 50%; }
@@ -56,7 +56,7 @@
     </style>
     <style media="screen and (min-width:480px)">
       .moz-text-html .mj-column-per-100 { width:100% !important; max-width: 100%; }
-.moz-text-html .mj-column-per-80 { width:80% !important; max-width: 80%; }
+.moz-text-html .mj-column-per-90 { width:90% !important; max-width: 90%; }
 .moz-text-html .mj-column-per-45 { width:45% !important; max-width: 45%; }
 .moz-text-html .mj-column-per-20 { width:20% !important; max-width: 20%; }
 .moz-text-html .mj-column-per-50 { width:50% !important; max-width: 50%; }
@@ -70,7 +70,20 @@
     @media only screen and (max-width:480px) {
       table.mj-full-width-mobile { width: 100% !important; }
       td.mj-full-width-mobile { width: auto !important; }
+      .recipe-media td,
+      .recipe-copy td { text-align: center !important; }
+      .recipe-media table,
+      .recipe-copy table { margin-left: auto !important; margin-right: auto !important; }
+      .recipe-copy div { text-align: center !important; }
     }
+    a:hover img.button-decouvre-off,
+    a:active img.button-decouvre-off,
+    img.button-decouvre-off:hover,
+    img.button-decouvre-off:active { content: url('./image/button-decouvre-on.png') !important; }
+    a:hover img.button-inspire-off,
+    a:active img.button-inspire-off,
+    img.button-inspire-off:hover,
+    img.button-inspire-off:active { content: url('./image/button-inspire-on.png') !important; }
   
     </style>
     <style type="text/css">
@@ -81,44 +94,30 @@
   <body style="word-spacing:normal;background-color:#f6e3b8;">
     
     
-      <div
-         style="background-color:#f6e3b8;"
-      >
+      <div style="background-color:#f6e3b8;">
         
       
       <!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <div
-         style="font-family:Open Sans;font-size:10px;line-height:1.3;text-align:center;color:#104542;"
-      ><strong>Laissez-vous tenter par nos nouvelles créations
-                    </br>Si vous ne visualisez pas cet email, cliquez ici.</strong></div>
+      <div style="font-family:Open Sans;font-size:10px;line-height:1.3;text-align:center;color:#104542;"><strong>Laissez-vous tenter par nos nouvelles créations
+                    <br>Si vous ne visualisez pas cet email, cliquez ici.</strong></div>
     
                 </td>
               </tr>
@@ -140,42 +139,80 @@
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0px;padding-top:10px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:0px;padding-top:10px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <a href="https://www.soignon.fr" target="_blank" style="text-decoration:none;"><img
-         alt="image soignon 130ans" height="auto" src="./image/logo-soignon.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      /></a>
+        <a href="https://www.soignon.fr" target="_blank">
+          
+      <img alt="image soignon 130ans" height="auto" src="./image/logo-soignon.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fff5dd" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#fff5dd;background-color:#fff5dd;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff5dd;background-color:#fff5dd;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:30px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                  
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style="width:300px;">
+              
+      <img alt="brèves de chèvre" height="auto" src="./image/breves-de-chevre.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300">
     
             </td>
           </tr>
@@ -202,105 +239,33 @@
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fff5dd" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fff5dd;background-color:#fff5dd;margin:0px auto;max-width:600px;">
+      <div style="background:#fff5dd;background-color:#fff5dd;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff5dd;background-color:#fff5dd;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff5dd;background-color:#fff5dd;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:30px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5%;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:300px;">
+            <td style="width:500px;">
               
-      <img
-         alt="brèves de chèvre" height="auto" src="./image/breves-de-chevre.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="300"
-      />
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fff5dd" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#fff5dd;background-color:#fff5dd;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fff5dd;background-color:#fff5dd;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5%;padding-top:0px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
+        <a href="https://www.soignon.fr/fromages-chevre-classiques" target="_blank">
           
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:500px;">
-              
-      <a href="https://www.soignon.fr/fromages-chevre-classiques" target="_blank" style="text-decoration:none;"><img
-         alt="innos-soignon" height="auto" src="./image/innos-soignon.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500"
-      /></a>
+      <img alt="innos-soignon" height="auto" src="./image/innos-soignon.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -326,42 +291,28 @@
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#FFFFFF" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;">
+      <div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/étoiles.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+      <img alt="innos-soignon" height="auto" src="./image/étoiles.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -388,43 +339,33 @@
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:450px;">
+            <td style="width:450px;">
               
-      <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank" style="text-decoration:none;"><img
-         alt="brique-extra-fondante" height="auto" src="./image/inno-brique-extra-fondante.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450"
-      /></a>
+        <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank">
+          
+      <img alt="brique-extra-fondante" height="auto" src="./image/inno-brique-extra-fondante.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -450,35 +391,23 @@
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0;padding-top:5%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:0;padding-top:5%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <div
-         style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;"
-      >Le plaisir chèvre... <br>
+      <div style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;">Le plaisir chèvre... <br>
 en version ultra fondante</div>
     
                 </td>
@@ -501,43 +430,33 @@ en version ultra fondante</div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-top:5%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:0px;padding-bottom:0px;padding-top:5%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:500px;">
+            <td style="width:500px;">
               
-      <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank" style="text-decoration:none;"><img
-         alt="toast" height="auto" src="./image/visuel.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500"
-      /></a>
+        <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank">
+          
+      <img alt="toast" height="auto" src="./image/visuel.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -563,35 +482,23 @@ en version ultra fondante</div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:3%;padding-top:3%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:480px;" ><![endif]-->
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:3%;padding-top:3%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-80 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-90 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;"
-      >Découvrez La Brique l'Extra-Fondante, <br>
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;">Découvrez La Brique l'Extra-Fondante, <br>
 une recette où le lait de chèvre et de vache s'unissent pour offrir <br>
 une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur subtile.</strong></div>
     
@@ -615,43 +522,33 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre1" height="auto" class="swap-button" data-off="./image/button-decouvre-off.png" data-on="./image/button-decouvre-on.png" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/la-brique-l-extra-fondante" target="_blank">
+          
+      <img class="button-decouvre-off" alt="Je découvre1" height="auto" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -677,42 +574,80 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:350px;">
+            <td style="width:350px;">
               
-      <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre1" height="auto" src="./image/bon-plan-fidmarques.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="350"
-      /></a>
+        <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank">
+          
+      <img alt="Je découvre1" height="auto" src="./image/bon-plan-fidmarques.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="350">
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                  
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style="width:600px;">
+              
+      <img alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -739,105 +674,33 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-top:0px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:600px;">
-              
-      <img
-         alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-media" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:220px;">
+            <td style="width:220px;">
               
-      <a href="https://www.soignon.fr/recette-planche-aperitive" target="_blank" style="text-decoration:none;"><img
-         alt="idéerecette" height="auto" src="./image/recete.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="220"
-      /></a>
+        <a href="https://www.soignon.fr/recette-planche-aperitive" target="_blank">
+          
+      <img alt="idéerecette" height="auto" src="./image/recette-plancha.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="220">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -853,55 +716,41 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
     
           <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-copy" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:800;line-height:1;text-align:center;color:#2d2d2d;"
-      ><strong>Apéro chêêêvrement réussi !</strong></div>
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:800;line-height:1.3;text-align:left;color:#2d2d2d;"><strong>Apéro chêêêvrement réussi !</strong></div>
     
                 </td>
               </tr>
             
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1;text-align:center;color:#2d2d2d;"
-      >De la charcuterie, des olives, quelques noix… et au centre, notre Brique l'Extra Fondante, ultra crémeuse.</div>
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:left;color:#2d2d2d;">De la charcuterie, des olives, quelques noix… et au centre, notre Brique l'Extra Fondante, ultra crémeuse.</div>
     
                 </td>
               </tr>
             
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/recette-planche-aperitive" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre1" height="auto" class="swap-button" data-off="image/button-inspire-off.png" data-on="image/button-inspire-on.png" src="image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/recette-planche-aperitive" target="_blank">
+          
+      <img class="button-inspire-off" alt="Je découvre1" height="auto" src="image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -927,42 +776,28 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/étoile-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+      <img alt="innos-soignon" height="auto" src="./image/étoile-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -989,43 +824,123 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-right:10px;padding-top:5%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-right:0px;padding-top:5%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                  
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style="width:500px;">
+              
+        <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank">
+          
+      <img alt="rape-duo-chevre-mozza" height="auto" src="./image/inno-rape-duo-chevre-mozza.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
+                  
+      <div style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;">Le râpé qui fait filer le plaisir !</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-right:10px;padding-top:5%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:590px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:500px;">
+            <td style="width:450px;">
               
-      <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank" style="text-decoration:none;"><img
-         alt="rape-duo-chevre-mozza" height="auto" src="./image/inno-rape-duo-chevre-mozza.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500"
-      /></a>
+        <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank">
+          
+      <img alt="rapé-duo" height="auto" src="./image/rapé-duo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1051,147 +966,23 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <div
-         style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;"
-      >Le râpé qui fait filer le plaisir !</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-right:10px;padding-top:5%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:590px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:450px;">
-              
-      <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank" style="text-decoration:none;"><img
-         alt="rapé-duo" height="auto" src="./image/rapé-duo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450"
-      /></a>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;"
-      ><strong>50% chèvre + 50% mozzarella = 100% plaisir</strong> <br> <br> 
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;"><strong>50% chèvre + 50% mozzarella = 100% plaisir</strong> <br> <br> 
 Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> incontournable pour faire fondre toute la tablée!</div>
     
                 </td>
@@ -1214,43 +1005,33 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:20px;padding-top:5%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:20px;padding-top:5%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre1" height="auto" class="swap-button" data-off="./image/button-decouvre-off.png" data-on="./image/button-decouvre-on.png" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/le-rape-duo-chevre-mozarella" target="_blank">
+          
+      <img class="button-decouvre-off" alt="Je découvre1" height="auto" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1276,42 +1057,28 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+      <img alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -1338,43 +1105,33 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-media" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;padding-bottom:30px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:250px;">
+            <td style="width:210px;">
               
-      <a href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet" target="_blank" style="text-decoration:none;"><img
-         alt="Téléphone" height="auto" src="./image/recet-pizza.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="250"
-      /></a>
+        <a href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet" target="_blank">
+          
+      <img alt="Téléphone" height="auto" src="./image/recette-pizza.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="210">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1390,49 +1147,34 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
     
           <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-copy" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1;text-align:center;color:#2d2d2d;"
-      ><strong>Régalez la team devant le match !</strong> <br> <br> 
-        La Coupe du Monde approche… 
-et les soirées foot aussi.
-Préparez une pizza généreuse 
-au chèvre, petits pois et poulet, 
-recouverte de notre râpé DUO 
-ultra gourmand et filant !</div>
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:left;color:#2d2d2d;"><strong>Régalez la team devant le match !</strong> <br> <br> 
+        La Coupe du Monde approche… et les soirées foot aussi. Préparez une pizza généreuse au chèvre, petits pois et poulet, recouverte de notre râpé DUO ultra gourmand et filant !</div>
     
                 </td>
               </tr>
             
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:30px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre1" height="auto" class="swap-button" data-off="./image/button-inspire-off.png" data-on="./image/button-inspire-on.png" src="./image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet" target="_blank">
+          
+      <img class="button-inspire-off" alt="Je découvre1" height="auto" src="./image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1458,42 +1200,28 @@ ultra gourmand et filant !</div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/étoile-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+      <img alt="innos-soignon" height="auto" src="./image/étoile-2.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -1520,155 +1248,33 @@ ultra gourmand et filant !</div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-right:10px;padding-top:0px;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:590px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:500px;">
-              
-      <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank" style="text-decoration:none;"><img
-         alt="pave-chevre" height="auto" src="./image/inno-pave-chevre-HDP.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500"
-      /></a>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;"
-      >Une alternative fromagère <br> ultra-gourmande</div>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-right:10px;padding-top:5%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:590px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
-                  
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:400px;">
+            <td style="width:500px;">
               
-      <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank" style="text-decoration:none;"><img
-         alt="Les bûches" height="auto" src="./image/visuel-pavé.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="400"
-      /></a>
+        <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank">
+          
+      <img alt="pave-chevre" height="auto" src="./image/inno-pave-chevre-HDP.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1694,35 +1300,113 @@ ultra gourmand et filant !</div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;"
-      >Découvrez le Pavé de Chèvre aux Herbes de Provence : <br> un <strong>cœur fondant</strong> et une <strong>panure ultra croustillante aux graines.</strong> <br> <br>
+      <div style="font-family:Chelsea Market;font-size:22px;font-weight:400;line-height:1.3;text-align:center;color:#028932;">Une alternative fromagère <br> ultra-gourmande</div>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-right:0px;padding-top:5%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                  
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style="width:450px;">
+              
+        <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank">
+          
+      <img alt="Les bûches" height="auto" src="./image/visuel-pavé.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450">
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0;padding-top:3%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
+                  
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:center;color:#2d2d2d;">Découvrez le Pavé de Chèvre aux Herbes de Provence : <br> un <strong>cœur fondant</strong> et une <strong>panure ultra croustillante aux graines.</strong> <br> <br>
 Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un clin d'œil.</div>
     
                 </td>
@@ -1745,43 +1429,33 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:20px;padding-top:5%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:20px;padding-top:5%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:580px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank" style="text-decoration:none;"><img
-         alt="Je découvre" height="auto" class="swap-button" data-off="./image/button-decouvre-off.png" data-on="./image/button-decouvre-on.png" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence" target="_blank">
+          
+      <img class="button-decouvre-off" alt="Je découvre" height="auto" src="./image/button-decouvre-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1807,42 +1481,28 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:600px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+      <img alt="innos-soignon" height="auto" src="./image/fleche.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -1869,43 +1529,33 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#fdf6e7" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
+      <div style="background:#fdf6e7;background-color:#fdf6e7;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#fdf6e7;background-color:#fdf6e7;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-media" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:220px;">
+            <td style="width:220px;">
               
-      <a href="https://www.soignon.fr/recettes-fromage-chevre" target="_blank" style="text-decoration:none;"><img
-         alt="Téléphone" height="auto" src="./image/recet-6min.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="220"
-      /></a>
+        <a href="https://www.soignon.fr/recettes-fromage-chevre" target="_blank">
+          
+      <img alt="Téléphone" height="auto" src="./image/recet-6min.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="220">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -1921,55 +1571,89 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
     
           <!--[if mso | IE]></td><td class="" style="vertical-align:middle;width:270px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-45 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;"
-      >
+      <div class="mj-column-per-45 mj-outlook-group-fix recipe-copy" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1;text-align:center;color:#2d2d2d;"
-      ><strong>Plaisir express, version chèvre !</strong>  <br> <br>
+      <div style="font-family:Ubuntu, Helvetica, Arial, sans-serif;font-size:16px;font-weight:400;line-height:1.3;text-align:left;color:#2d2d2d;"><strong>Plaisir express, version chèvre !</strong>  <br> <br>
 Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade ou en accompagnement… il s'adapte à toutes vos envies.</div>
     
                 </td>
               </tr>
             
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Inter;font-size:17px;font-weight:800;line-height:1;text-align:center;color:#dc2427;"
-      ></div>
+      <div style="font-family:Inter;font-size:17px;font-weight:800;line-height:1;text-align:center;color:#dc2427;"></div>
     
                 </td>
               </tr>
             
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;"
-                >
+                <td align="left" style="font-size:0px;padding:10px 25px;padding-bottom:50px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:190px;">
+            <td style="width:190px;">
               
-      <a href="https://www.soignon.fr/recettes-fromage-chevre" target="_blank" style="text-decoration:none;"><img
-         alt="button-inspire" height="auto" class="swap-button" data-off="./image/button-inspire-off.png" data-on="./image/button-inspire-on.png" src="./image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190"
-       /></a>
+        <a href="https://www.soignon.fr/recettes-fromage-chevre" target="_blank">
+          
+      <img class="button-inspire-off" alt="button-inspire" height="auto" src="./image/button-inspire-off.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="190">
+    
+        </a>
+      
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    
+                </td>
+              </tr>
+            
+        </tbody>
+      </table>
+    
+      </div>
+    
+          <!--[if mso | IE]></td></tr></table><![endif]-->
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        
+      </div>
+    
+      
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ec1d21" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+    
+      
+      <div style="background:#ec1d21;background-color:#ec1d21;margin:0px auto;max-width:600px;">
+        
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ec1d21;background-color:#ec1d21;width:100%;">
+          <tbody>
+            <tr>
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+            
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+        
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+        <tbody>
+          
+              <tr>
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
+                  
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+        <tbody>
+          <tr>
+            <td style="width:600px;">
+              
+      <img alt="innos-soignon" height="auto" src="./image/star-verte.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600">
     
             </td>
           </tr>
@@ -1993,46 +1677,36 @@ Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade 
       </div>
     
       
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#d52935" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ec1d21" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#d52935;background-color:#d52935;margin:0px auto;max-width:600px;">
+      <div style="background:#ec1d21;background-color:#ec1d21;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#d52935;background-color:#d52935;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ec1d21;background-color:#ec1d21;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;padding-bottom:5%;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:600px;">
+            <td style="width:400px;">
               
-      <img
-         alt="innos-soignon" height="auto" src="./image/Etoile-vert.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="600"
-      />
+        <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank">
+          
+      <img alt="bon-plan" height="auto" src="./image/title-bon-plan.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="400">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2055,100 +1729,26 @@ Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade 
       </div>
     
       
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#d72630" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ec1d21" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#d72630;background-color:#d72630;margin:0px auto;max-width:600px;">
+      <div style="background:#ec1d21;background-color:#ec1d21;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#d72630;background-color:#d72630;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ec1d21;background-color:#ec1d21;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:0px;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5%;padding-top:0%;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:10px 25px;padding-bottom:5%;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
-        <tbody>
-          <tr>
-            <td  style="width:400px;">
-              
-      <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank" style="text-decoration:none;"><img
-         alt="bon-plan" height="auto" src="./image/title-bon-plan.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="400"
-      /></a>
-    
-            </td>
-          </tr>
-        </tbody>
-      </table>
-    
-                </td>
-              </tr>
-            
-        </tbody>
-      </table>
-    
-      </div>
-    
-          <!--[if mso | IE]></td></tr></table><![endif]-->
-              </td>
-            </tr>
-          </tbody>
-        </table>
-        
-      </div>
-    
-      
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#d72630" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
-    
-      
-      <div  style="background:#d72630;background-color:#d72630;margin:0px auto;max-width:600px;">
-        
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#d72630;background-color:#d72630;width:100%;"
-        >
-          <tbody>
-            <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:5%;padding-top:0%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
-            
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
-        
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
-        <tbody>
-          
-              <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
-                  
-      <div
-         style="font-family:Open Sans;font-size:14px;line-height:1.3;text-align:center;color:#fff5dd;"
-      ><strong> Avec le programme de fidélité, <br> 
+      <div style="font-family:Open Sans;font-size:14px;line-height:1.3;text-align:center;color:#fff5dd;"><strong> Avec le programme de fidélité, <br> 
 tentez de vous faire rembourser la brique L'Extra Fondante <br>
 selon vos points accumulés (jusqu'au 05/08/2026). <br>
 De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
@@ -2170,46 +1770,36 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
       </div>
     
       
-      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#d72630" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+      <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ec1d21" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#d72630;background-color:#d72630;margin:0px auto;max-width:600px;">
+      <div style="background:#ec1d21;background-color:#ec1d21;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#d72630;background-color:#d72630;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ec1d21;background-color:#ec1d21;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:8%;padding-right:0px;padding-top:0px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:8%;padding-right:0px;padding-top:0px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:450px;">
+            <td style="width:500px;">
               
-      <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank" style="text-decoration:none;"><img
-         alt="Les bûches" height="auto" src="./image/remboursement-fidmarques.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="450"
-      /></a>
+        <a href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA" target="_blank">
+          
+      <img alt="Les bûches" height="auto" src="./image/remboursement-fidmarques.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="500">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2235,48 +1825,36 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-left:15%;padding-right:15%;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-left:15%;padding-right:15%;padding-top:25px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:570px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;"
-      >
+      <div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;">
         <!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:middle;width:114px;" ><![endif]-->
                 
-      <div
-         class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;"
-      >
+      <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:33px;">
+            <td style="width:33px;">
               
-      <a href="https://www.facebook.com/Soignon" target="_blank" style="text-decoration:none;"><img
-         alt="Facebook" height="33" src="./image/facebook.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33"
-      /></a>
+        <a href="https://www.facebook.com/Soignon" target="_blank">
+          
+      <img alt="Facebook" height="33" src="./image/facebook.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2292,31 +1870,25 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
     
               <!--[if mso | IE]></td><td style="vertical-align:middle;width:114px;" ><![endif]-->
                 
-      <div
-         class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;"
-      >
+      <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:33px;">
+            <td style="width:33px;">
               
-      <a href="https://www.instagram.com/soignon_officiel/" target="_blank" style="text-decoration:none;"><img
-         alt="Instagram" height="33" src="./image/instagram.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33"
-      /></a>
+        <a href="https://www.instagram.com/soignon_officiel/" target="_blank">
+          
+      <img alt="Instagram" height="33" src="./image/instagram.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2332,31 +1904,25 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
     
               <!--[if mso | IE]></td><td style="vertical-align:middle;width:114px;" ><![endif]-->
                 
-      <div
-         class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;"
-      >
+      <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:33px;">
+            <td style="width:33px;">
               
-      <a href="https://www.youtube.com/user/Soignonvideos" target="_blank" style="text-decoration:none;"><img
-         alt="YouTube" height="auto" src="./image/youtube.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="33"
-      /></a>
+        <a href="https://www.youtube.com/user/Soignonvideos" target="_blank">
+          
+      <img alt="YouTube" height="auto" src="./image/youtube.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="33">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2372,31 +1938,25 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
     
               <!--[if mso | IE]></td><td style="vertical-align:middle;width:114px;" ><![endif]-->
                 
-      <div
-         class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;"
-      >
+      <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:33px;">
+            <td style="width:33px;">
               
-      <a href="https://fr.pinterest.com/soignon/" target="_blank" style="text-decoration:none;"><img
-         alt="Pinterest" height="33" src="./image/pinterest.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33"
-      /></a>
+        <a href="https://fr.pinterest.com/soignon/" target="_blank">
+          
+      <img alt="Pinterest" height="33" src="./image/pinterest.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2412,31 +1972,25 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
     
               <!--[if mso | IE]></td><td style="vertical-align:middle;width:114px;" ><![endif]-->
                 
-      <div
-         class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;"
-      >
+      <div class="mj-column-per-20 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:middle;width:20%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:middle;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:33px;">
+            <td style="width:33px;">
               
-      <a href="https://www.tiktok.com/@soignon_officiel" target="_blank" style="text-decoration:none;"><img
-         alt="TikTok" height="33" src="./image/tiktok.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33"
-      /></a>
+        <a href="https://www.tiktok.com/@soignon_officiel" target="_blank">
+          
+      <img alt="TikTok" height="33" src="./image/tiktok.png" style="border:0;display:block;outline:none;text-decoration:none;height:33px;width:100%;font-size:13px;" width="33">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2465,43 +2019,33 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-top:20px;text-align:center;"
-              >
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:20px;padding-top:20px;text-align:center;">
                 <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:300px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0px;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:0px;word-break:break-word;">
                   
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
         <tbody>
           <tr>
-            <td  style="width:150px;">
+            <td style="width:150px;">
               
-      <a href="https://www.soignon.fr" target="_blank" style="text-decoration:none;"><img
-         alt="HAHAH nul pue la pisse" height="auto" src="./image/footer-logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150"
-      /></a>
+        <a href="https://www.soignon.fr" target="_blank">
+          
+      <img alt="HAHAH nul pue la pisse" height="auto" src="./image/footer-logo.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="150">
     
+        </a>
+      
             </td>
           </tr>
         </tbody>
@@ -2527,35 +2071,23 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
       <!--[if mso | IE]></td></tr></table><table align="center" border="0" cellpadding="0" cellspacing="0" class="" role="presentation" style="width:600px;" width="600" bgcolor="#ffffff" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
     
       
-      <div  style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
+      <div style="background:#ffffff;background-color:#ffffff;margin:0px auto;max-width:600px;">
         
-        <table
-           align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;"
-        >
+        <table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
           <tbody>
             <tr>
-              <td
-                 style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:3%;padding-top:3%;text-align:center;"
-              >
-                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:600px;" ><![endif]-->
+              <td style="direction:ltr;font-size:0px;padding:20px 0;padding-bottom:3%;padding-top:3%;text-align:center;">
+                <!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:540px;" ><![endif]-->
             
-      <div
-         class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;"
-      >
+      <div class="mj-column-per-90 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
         
-      <table
-         border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%"
-      >
+      <table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
         <tbody>
           
               <tr>
-                <td
-                   align="center" style="font-size:0px;padding:0;word-break:break-word;"
-                >
+                <td align="center" style="font-size:0px;padding:10px 25px;word-break:break-word;">
                   
-      <div
-         style="font-family:Open Sans;font-size:10px;line-height:1.3;text-align:center;color:#104542;"
-      ><strong>Merci de ne pas répondre à ce message.
+      <div style="font-family:Open Sans;font-size:10px;line-height:1.3;text-align:center;color:#104542;"><strong>Merci de ne pas répondre à ce message.
 <br>Vous recevez ce message car vous avez souscrit à la Newsletter Brèves de Chèvre Soignon.
 <br>Pour vous désabonner, suivez ce lien. 
 <br>Plus d’informations sur la gestion de vos données disponibles sur notre politique de confidentialité.</strong></div>
@@ -2582,27 +2114,6 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong></div>
     
       </div>
     
-    <script>
-      document.querySelectorAll('.swap-button').forEach(function(button) {
-        button.style.cursor = 'pointer';
-
-        button.addEventListener('mouseenter', function() {
-          button.src = button.dataset.on;
-        });
-
-        button.addEventListener('mouseleave', function() {
-          if (button.dataset.active !== 'true') {
-            button.src = button.dataset.off;
-          }
-        });
-
-        button.addEventListener('click', function() {
-          var isActive = button.dataset.active === 'true';
-          button.dataset.active = isActive ? 'false' : 'true';
-          button.src = isActive ? button.dataset.off : button.dataset.on;
-        });
-      });
-    </script>
   </body>
 </html>
   

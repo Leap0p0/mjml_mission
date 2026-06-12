@@ -1,6 +1,24 @@
 <mjml>
   <mj-head>
     <mj-font name="Chelsea Market" href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" />
+    <mj-style>
+      @media only screen and (max-width:480px) {
+        .mj-column-per-45 { width: 50% !important; max-width: 50% !important; }
+        .mj-column-per-45 > table > tbody > tr > td { padding-left: 6px !important; padding-right: 6px !important; }
+        .mj-column-per-45 table { max-width: 100% !important; }
+        .mj-column-per-45 table td { max-width: 100% !important; }
+        .mj-column-per-45 img { max-width: 100% !important; height: auto !important; }
+        .recipe-media td,
+        .recipe-copy td { text-align: center !important; }
+        .recipe-media table,
+        .recipe-copy table { margin-left: auto !important; margin-right: auto !important; }
+        .recipe-copy div { text-align: center !important; }
+      }
+      .button-decouvre-off:hover img,
+      .button-decouvre-off:active img { content: url('./image/button-decouvre-on.png') !important; }
+      .button-inspire-off:hover img,
+      .button-inspire-off:active img { content: url('./image/button-inspire-on.png') !important; }
+    </mj-style>
   </mj-head>
     <mj-body background-color="#f6e3b8">
 
@@ -19,11 +37,13 @@
 
 <mj-section padding-top="10px" padding="0px" background-color="#ffffff">
   <mj-column width="100%">
-  <mj-image
-     src="./image/logo-soignon.png"
-     alt="image soignon 130ans"
-     width="600px"
-     padding="0px"
+	  <mj-image
+	     src="./image/logo-soignon.png"
+	     alt="image soignon 130ans"
+	     href="https://www.soignon.fr"
+	     target="_blank"
+	     width="600px"
+	     padding="0px"
      
      />
     </mj-column>
@@ -62,10 +82,12 @@
 
     <mj-section padding-top="0px" padding-bottom="5%"  background-color="#fff5dd">
   <mj-column width="100%">
-  <mj-image
-     src="./image/innos-soignon.gif"
-     alt="innos-soignon"
-     width="500px"/>
+	  <mj-image
+	     src="./image/innos-soignon.gif"
+	     alt="innos-soignon"
+	     href="https://www.soignon.fr/fromages-chevre-classiques"
+	     target="_blank"
+	     width="500px"/>
 
     </mj-column>
     </mj-section>
@@ -96,10 +118,12 @@
 
  <mj-section padding-top="0px"  background-color="#ffffff" padding-bottom="0px" padding="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/inno-brique-extra-fondante.gif"
-     alt="brique-extra-fondante"
-     width="450px"padding-bottom="0px">
+	    <mj-image
+	     src="./image/inno-brique-extra-fondante.gif"
+	     alt="brique-extra-fondante"
+	     href="https://www.soignon.fr/la-brique-l-extra-fondante"
+	     target="_blank"
+	     width="450px"padding-bottom="0px">
 
     </mj-column>
     </mj-section>
@@ -134,10 +158,12 @@ en version ultra fondante
 
 <mj-section padding-top="5%"  background-color="#ffffff" padding-bottom="0px" padding="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/visuel.png"
-     alt="toast"
-     width="500px"padding-bottom="50px">
+	    <mj-image
+	     src="./image/visuel.png"
+	     alt="toast"
+	     href="https://www.soignon.fr/la-brique-l-extra-fondante"
+	     target="_blank"
+	     width="500px"padding-bottom="50px">
 
     </mj-column>  
         </mj-section>
@@ -152,8 +178,8 @@ en version ultra fondante
 
 
 <mj-section background-color="#ffffff" padding-top="3%" padding-bottom="3%">
-            <mj-column width="80%">
-                <mj-text padding="0" line-height="1.3" align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" font-weight="400" color="#2d2d2d">
+            <mj-column width="90%">
+                <mj-text  line-height="1.3" align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" font-weight="400" color="#2d2d2d">
                     Découvrez La Brique l'Extra-Fondante, <br>
 une recette où le lait de chèvre et de vache s'unissent pour offrir <br>
 une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur subtile.</strong>
@@ -172,10 +198,13 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
 
 <mj-section padding-top="0px"  background-color="#ffffff" padding-bottom="0px" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/button-decouvre-off.png"
-     alt="Je découvre1"
-     width="190px"padding-bottom="30px">
+	    <mj-image
+	     src="./image/button-decouvre-off.png"
+	     alt="Je découvre1"
+	     href="https://www.soignon.fr/la-brique-l-extra-fondante"
+	     target="_blank"
+	     css-class="button-decouvre-off"
+	     width="190px"padding-bottom="30px">
 
     </mj-column>  
         </mj-section>
@@ -184,10 +213,12 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
 
 <mj-section padding-top="0px"  background-color="#ffffff" padding-bottom="0px" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/bon-plan-fidmarques.gif"
-     alt="Je découvre1"
-     width="350px"padding-bottom="50px">
+	    <mj-image
+	     src="./image/bon-plan-fidmarques.gif"
+	     alt="Je découvre1"
+	     href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA"
+	     target="_blank"
+	     width="350px"padding-bottom="50px">
 
     </mj-column>  
         </mj-section>
@@ -210,23 +241,29 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
 
 
  <mj-section padding-top="0px" background-color="#fdf6e7" padding-bottom="0px" padding-right="0px">
-    <mj-column width="45%" vertical-align="middle">
-        <mj-image
-        src="./image/recete.png"
-        alt="idéerecette"
-        width="250px"padding-bottom="30px">
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-media">
+	        <mj-image
+	        src="./image/recette-plancha.png"
+	        alt="idéerecette"
+	        href="https://www.soignon.fr/recette-planche-aperitive"
+	        target="_blank"
+	        width="220px"padding-bottom="30px">
     </mj-column>
-    <mj-column width="45%" vertical-align="middle">
-        <mj-text align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="800">
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-copy">
+        <mj-text align="left" line-height="1.3" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="800">
             <strong>Apéro chêêêvrement réussi !</strong>
         </mj-text>
-        <mj-text align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
+        <mj-text align="left" line-height="1.3" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
         De la charcuterie, des olives, quelques noix… et au centre, notre Brique l'Extra Fondante, ultra crémeuse.
         </mj-text>
-        <mj-image
-            src="image/button-inspire-off.png"
-            alt="Je découvre1"
-            width="190px"padding-bottom="30px">
+	        <mj-image
+	            src="image/button-inspire-off.png"
+	            alt="Je découvre1"
+	            href="https://www.soignon.fr/recette-planche-aperitive"
+	            target="_blank"
+	            css-class="button-inspire-off"
+                align="left"
+	            width="190px"padding-bottom="30px">
     </mj-column>
 </mj-section>
 
@@ -255,13 +292,15 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
 
 
 
-<mj-section padding-top="5%" padding-top="0px" background-color="#ffffff" padding-right="10px">
+<mj-section padding-top="5%" padding-top="0px" background-color="#ffffff" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/inno-rape-duo-chevre-mozza.gif" 
-     alt="rape-duo-chevre-mozza"
-     width="500px"
-     padding="0" />
+	    <mj-image
+	     src="./image/inno-rape-duo-chevre-mozza.gif" 
+	     alt="rape-duo-chevre-mozza"
+	     href="https://www.soignon.fr/le-rape-duo-chevre-mozarella"
+	     target="_blank"
+	     width="500px"
+ />
 
     </mj-column>
     </mj-section>
@@ -282,11 +321,13 @@ une <strong>texture irrésistiblement fondante</strong> et une <strong>saveur su
 
 <mj-section padding-top="5%" padding-top="0px" background-color="#ffffff" padding-right="10px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/rapé-duo.png" 
-     alt="rapé-duo"
-     width="450px"
-     padding="0" />
+	    <mj-image
+	     src="./image/rapé-duo.png" 
+	     alt="rapé-duo"
+	     href="https://www.soignon.fr/le-rape-duo-chevre-mozarella"
+	     target="_blank"
+	     width="450px"
+      />
 
     </mj-column>
     </mj-section>
@@ -310,10 +351,13 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
 
 <mj-section padding-top="5%"  background-color="#ffffff" padding-bottom="0px" padding-right="20px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/button-decouvre-off.png"
-     alt="Je découvre1"
-     width="190px"padding-bottom="50px">
+	    <mj-image
+	     src="./image/button-decouvre-off.png"
+	     alt="Je découvre1"
+	     href="https://www.soignon.fr/le-rape-duo-chevre-mozarella"
+	     target="_blank"
+	     css-class="button-decouvre-off"
+	     width="190px"padding-bottom="50px">
 
     </mj-column>  
         </mj-section>
@@ -334,32 +378,32 @@ Pizzas, gratins, lasagnes ou tartes... c'est le nouvel ingrédient  <br> inconto
 
 
 <mj-section padding-top="0px" background-color="#fdf6e7" padding-bottom="0px" padding-right="0px">
-    <mj-column width="45%" vertical-align="middle">
-    <mj-image
-     src="./image/recet-pizza.png"
-     alt="Téléphone"
-     width="250px"
-     padding=0
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-media">
+	    <mj-image
+	     src="./image/recette-pizza.png"
+	     alt="Téléphone"
+	     href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet"
+	     target="_blank"
+	     width="210px"
      padding-bottom="30px">
 
     </mj-column>
-    <mj-column width="45%" vertical-align="middle">
-    <mj-text align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-copy">
+    <mj-text align="left" line-height="1.3" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
 
 
         <strong>Régalez la team devant le match !</strong> <br> <br> 
-        La Coupe du Monde approche… 
-et les soirées foot aussi.
-Préparez une pizza généreuse 
-au chèvre, petits pois et poulet, 
-recouverte de notre râpé DUO 
-ultra gourmand et filant ! 
+        La Coupe du Monde approche… et les soirées foot aussi. Préparez une pizza généreuse au chèvre, petits pois et poulet, recouverte de notre râpé DUO ultra gourmand et filant ! 
 
     </mj-text>
-<mj-image
-     src="./image/button-inspire-off.png"
-     alt="Je découvre1"
-     width="190px"padding-bottom="30px">
+	<mj-image
+	     src="./image/button-inspire-off.png"
+	     alt="Je découvre1"
+	     href="https://www.soignon.fr/recette-pizza-chevre-petits-pois-et-poulet"
+	     target="_blank"
+	     css-class="button-inspire-off"
+         align="left"
+	     width="190px"padding-bottom="30px">
 </mj-section>
 
 
@@ -377,13 +421,15 @@ ultra gourmand et filant !
     
 </mj-section>
 
-<mj-section padding-top="0px" padding-top="0px" background-color="#ffffff" padding-right="10px">
+<mj-section padding-top="0px" padding-top="0px" background-color="#ffffff" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/inno-pave-chevre-HDP.gif" 
-     alt="pave-chevre"
-     width="500px"
-     padding="0" />
+	    <mj-image
+	     src="./image/inno-pave-chevre-HDP.gif" 
+	     alt="pave-chevre"
+	     href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence"
+	     target="_blank"
+	     width="500px"
+      />
 
     </mj-column>
     </mj-section>
@@ -404,13 +450,15 @@ ultra gourmand et filant !
 
 
 
-<mj-section padding-top="5%" padding-top="0px" background-color="#ffffff" padding-right="10px">
+<mj-section padding-top="5%" padding-top="0px" background-color="#ffffff" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/visuel-pavé.png" 
-     alt="Les bûches"
-     width="400px"
-     padding="0" />
+	    <mj-image
+	     src="./image/visuel-pavé.png" 
+	     alt="Les bûches"
+	     href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence"
+	     target="_blank"
+	     width="450px"
+      />
 
     </mj-column>
     </mj-section>
@@ -421,7 +469,7 @@ ultra gourmand et filant !
 
 <mj-section background-color="#ffffff" padding-top="3%" padding-bottom="0">
             <mj-column>
-                <mj-text padding="0" line-height="1.3" align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" font-weight="400" color="#2d2d2d">
+                <mj-text  line-height="1.3" align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" font-weight="400" color="#2d2d2d">
                     Découvrez le Pavé de Chèvre aux Herbes de Provence : <br> un <strong>cœur fondant</strong> et une <strong>panure ultra croustillante aux graines.</strong> <br> <br>
 Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un clin d'œil.
                 </mj-text>
@@ -433,10 +481,13 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
 
 <mj-section padding-top="5%"  background-color="#ffffff" padding-bottom="0px" padding-right="20px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/button-decouvre-off.png"
-     alt="Je découvre"
-     width="190px"padding-bottom="50px">
+	    <mj-image
+	     src="./image/button-decouvre-off.png"
+	     alt="Je découvre"
+	     href="https://www.soignon.fr/le-pave-de-chevre-aux-herbes-de-provence"
+	     target="_blank"
+	     css-class="button-decouvre-off"
+	     width="190px"padding-bottom="50px">
 
     </mj-column>  
         </mj-section>
@@ -459,15 +510,17 @@ Facile et rapide, au four ou à l'Airfryer,  <br>pour un repas gourmand en un cl
 
 
 <mj-section padding-top="0px" background-color="#fdf6e7" padding-bottom="0px" padding-right="0px">
-    <mj-column width="45%" vertical-align="middle">
-    <mj-image
-     src="./image/recet-6min.png"
-     alt="Téléphone"
-     width="250px"padding-bottom="50px">
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-media">
+	    <mj-image
+	     src="./image/recet-6min.png"
+	     alt="Téléphone"
+	     href="https://www.soignon.fr/recettes-fromage-chevre"
+	     target="_blank"
+	     width="220px"padding-bottom="50px">
 
     </mj-column>
-    <mj-column width="45%" vertical-align="middle">
-    <mj-text align="center" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
+    <mj-column width="45%" vertical-align="middle" css-class="recipe-copy">
+    <mj-text align="left" line-height="1.3" font-family="Ubuntu, Helvetica, Arial, sans-serif" font-size="16px" color="#2d2d2d" font-weight="400">
 
    <strong>Plaisir express, version chèvre !</strong>  <br> <br>
 Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade ou en accompagnement… il s'adapte à toutes vos envies.
@@ -475,18 +528,22 @@ Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade 
     </mj-text>
     <mj-text align="center" font-family="Inter" font-size="17px" color="#dc2427" font-weight="800">
 </mj-text>
-<mj-image
-     src="./image/button-inspire-off.png"
-     alt="button-inspire"
-     width="190px"padding-bottom="50px">
+		<mj-image
+		     src="./image/button-inspire-off.png"
+		     alt="button-inspire"
+		     href="https://www.soignon.fr/recettes-fromage-chevre"
+		     target="_blank"
+		     css-class="button-inspire-off"
+             align="left"
+		     width="190px"padding-bottom="50px">
 </mj-section>
 
 
 
-    <mj-section padding-top="0px"  background-color="#d52935">
+    <mj-section padding-top="0px"  background-color="#ec1d21">
   <mj-column width="100%">
   <mj-image
-     src="./image/Etoile-vert.png"
+     src="./image/star-verte.png"
      alt="innos-soignon"
      width="600px"
      padding="0px"
@@ -498,12 +555,14 @@ Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade 
 </mj-section>
 
 
-<mj-section padding-top="0px"  background-color="#d72630" padding-bottom="0px" padding-right="0px">
+<mj-section padding-top="0px"  background-color="#ec1d21" padding-bottom="0px" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/title-bon-plan.png"
-     alt="bon-plan"
-     width="400px"
+	    <mj-image
+	     src="./image/title-bon-plan.png"
+	     alt="bon-plan"
+	     href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA"
+	     target="_blank"
+	     width="400px"
      padding-bottom="5%">
 
     </mj-column>  
@@ -511,9 +570,9 @@ Facile à intégrer dans vos assiettes du quotidien, dans un burger, une salade 
 
 
 
-<mj-section background-color="#d72630" padding-top="0%" padding-bottom="5%">
+<mj-section background-color="#ec1d21" padding-top="0%" padding-bottom="5%">
             <mj-column>
-                <mj-text padding="0" line-height="1.3" align="center" font-family="Open Sans" font-size="14px" color="#fff5dd">
+                <mj-text line-height="1.3" align="center" font-family="Open Sans" font-size="14px" color="#fff5dd">
                     <strong> Avec le programme de fidélité, <br> 
 tentez de vous faire rembourser la brique L'Extra Fondante <br>
 selon vos points accumulés (jusqu'au 05/08/2026). <br>
@@ -526,13 +585,15 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong>
 
 
 
-<mj-section padding-top="0px" padding-bottom="8%" background-color="#d72630" padding-right="0px">
+<mj-section padding-top="0px" padding-bottom="8%" background-color="#ec1d21" padding-right="0px">
     <mj-column width="100%">
-    <mj-image
-     src="./image/remboursement-fidmarques.gif" 
-     alt="Les bûches"
-     width="450px"
-     padding="0" />
+	    <mj-image
+	     src="./image/remboursement-fidmarques.gif" 
+	     alt="Les bûches"
+	     href="https://api.fidmarques.com/?with=CHEVRE10&amp;_branch_match_id=1037353532645166642&amp;_branch_referrer=H4sIAAAAAAAAA8soKSkottLXT8tMyU0sKizVSy3Wd%2FZwDQtyNTQAAKSMbtQcAAAA"
+	     target="_blank"
+	     width="500px"
+      />
 
     </mj-column>
     </mj-section>
@@ -558,31 +619,31 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong>
 
 
 
-<mj-section background-color="#ffffff"padding-left="15%" padding-right="15%"> 
+<mj-section background-color="#ffffff" padding-top="25px" padding-left="15%" padding-right="15%"> 
     
     
     <mj-group>
       <mj-column width="20%" vertical-align="middle">
-    <mj-image src="./image/facebook.png" width='33px' height='33px' alt="Facebook" padding="0"/>
+	    <mj-image src="./image/facebook.png" href="https://www.facebook.com/Soignon" target="_blank" width='33px' height='33px' alt="Facebook" padding="0"/>
     </mj-column>
 
 
     <mj-column width="20%" vertical-align="middle">
-    <mj-image src="./image/instagram.png" width='33px' height='33px' alt="Instagram" padding="0"/>
+	    <mj-image src="./image/instagram.png" href="https://www.instagram.com/soignon_officiel/" target="_blank" width='33px' height='33px' alt="Instagram" padding="0"/>
     </mj-column>
 
 
     <mj-column width="20%" vertical-align="middle">
-    <mj-image src="./image/youtube.png" width='33px' alt="YouTube" padding="0"/>
+	    <mj-image src="./image/youtube.png" href="https://www.youtube.com/user/Soignonvideos" target="_blank" width='33px' alt="YouTube" padding="0"/>
     </mj-column>
 
 
     <mj-column width="20%" vertical-align="middle">
-    <mj-image src="./image/pinterest.png" width='33px' height='33px' alt="Pinterest" padding="0"/>
+	    <mj-image src="./image/pinterest.png" href="https://fr.pinterest.com/soignon/" target="_blank" width='33px' height='33px' alt="Pinterest" padding="0"/>
     </mj-column>
 
     <mj-column width="20%" vertical-align="middle">
-    <mj-image src="./image/tiktok.png" width='33px' height='33px' alt="TikTok" padding="0"/>
+	    <mj-image src="./image/tiktok.png" href="https://www.tiktok.com/@soignon_officiel" target="_blank" width='33px' height='33px' alt="TikTok" padding="0"/>
     </mj-column>
     </mj-section>
 
@@ -591,10 +652,12 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong>
 
 <mj-section padding-top="20px" background-color="#ffffff" padding-bottom="20px">
     <mj-column width="50%">
-    <mj-image
-     src="./image/footer-logo.png"
-     alt="HAHAH nul pue la pisse"
-     width="150px"
+	    <mj-image
+	     src="./image/footer-logo.png"
+	     alt="HAHAH nul pue la pisse"
+	     href="https://www.soignon.fr"
+	     target="_blank"
+	     width="150px"
      padding="0px"/>
 
     </mj-column>
@@ -605,8 +668,8 @@ De quoi se régaler tout en profitant d'un bon plan ! <br></strong>
 
 
 <mj-section background-color="#ffffff" padding-top="3%" padding-bottom="3%">
-            <mj-column>
-                <mj-text padding="0" line-height="1.3" align="center" font-family="Open Sans" font-size="10px" color="#104542">
+            <mj-column width="90%">
+                <mj-text  line-height="1.3" align="center" font-family="Open Sans" font-size="10px" color="#104542">
                     <strong>Merci de ne pas répondre à ce message.
 <br>Vous recevez ce message car vous avez souscrit à la Newsletter Brèves de Chèvre Soignon.
 <br>Pour vous désabonner, suivez ce lien. 

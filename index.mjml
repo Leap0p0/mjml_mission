@@ -1,0 +1,642 @@
+<mjml>
+  <mj-head>
+    <mj-font name="Chelsea Market" href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" />
+  </mj-head>
+    <mj-body background-color="#f6e3b8">
+
+
+
+<mj-section background-color="#ffffff" padding-top="3%" padding="0">
+            <mj-column>
+                <mj-text padding="0" line-height="1.3" align="center" font-family="Open Sans" font-size="10px" color="#104542">
+                    <strong>Batch cooking, lunchbox, astuces recettes : la rentrée version Soignon
+                    </br>Si vous ne visualisez pas cet email, cliquez ici.</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+<mj-section padding-top="20px" padding-bottom="0px"background-color="#ffffff">
+  <mj-column width="100%">
+  <mj-image
+     src="./image/logo-soignon-2.png"
+     href="https://www.soignon.fr/"
+     alt="image soignon 130ans"
+     width="8000px"
+     padding="0"
+     />
+    </mj-column>
+    </mj-section>
+    
+    
+    
+
+
+
+
+    <mj-section padding-top="0px" padding-bottom="0px"background-color="#fff5dd">
+  <mj-column width="90%">
+  <mj-image
+     src="./image/la-rentree-est-la.png"
+     href="https://www.soignon.fr/recettes-fromage-chevre/?tag=easy"
+     alt="brèves de chèvre"
+     width="550px"
+     />
+
+    </mj-column>
+    </mj-section>
+
+    
+    
+    
+
+
+
+<mj-section background-color="#fff5dd" padding-top="3%" padding="0">
+            <mj-column width="90%">
+                <mj-text  line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                    Entre reprise du travail, retour à l'école et nouvelles habitudes, <strong>septembre</strong> est souvent <strong>synonyme d'organisation</strong>. Pour vous accompagner au quotidien, découvrez nos idées recettes, nos astuces pratiques et nos produits incontournables pour une <strong>rentrée gourmande</strong> placée sous le signe de la <strong>simplicité</strong>.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+    
+    
+    <mj-section background-color="#fff5dd">
+  <mj-column width="40%">
+  <mj-image
+     src="./image/je-decouvre-off.png"
+     href="https://www.soignon.fr/recettes-fromage-chevre/?tag=easy"
+     alt="Rentré formagère"
+     width="400px"/>
+
+    </mj-column>
+    </mj-section>
+    
+
+
+
+
+
+    <mj-section padding-top="0px"   background-color="#ffffff">
+  <mj-column width="100%" >
+  <mj-image
+     src="./image/star-red.png"
+     alt="Rentré formagère"
+     width="800px"
+     padding="0"
+     />
+
+    </mj-column>
+    </mj-section>
+    
+
+
+
+
+
+
+
+
+    <mj-section padding-top="0px"  background-color="#ffffff">
+  <mj-column width="100%">
+  <mj-image
+     src="./image/batch-cooking.png"
+     href="https://www.soignon.fr/recettes-fromage-chevre/?tag=easy"
+     alt="Rentré formagère"
+     width="450px"/>
+
+    </mj-column>
+    </mj-section>
+    
+
+
+
+
+
+
+
+    
+    
+    <mj-section padding-top="0px" padding-bottom="0px" background-color="#FFFFFF">
+    <mj-column width="100%">
+    <mj-text align="center" font-family="Chelsea Market" font-size="22px" color="#028932" font-weight="400">
+
+
+    <strong> 1 légumes à préparer, <br> 4 recettes gourmandes</strong>
+    </mj-text>
+    </mj-column>
+</mj-section>
+
+
+
+
+<mj-section padding-bottom="0px" background-color="#FFFFFF">
+    <mj-column width="90%">
+    <mj-text  line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+
+
+    <strong>Le secret pour gagner du temps cette semaine ?</strong> <strong>Préparez vos légumes en une seule fois !</strong> Prenons l'exemple de la courgette. Coupez-les en rondelles ou en dés, faites-les cuire au four ou à la poêle, puis utilisez-les au fil de la semaine dans plusieurs recettes simples et savoureuses.
+    </mj-text>
+    </mj-column>
+</mj-section>
+
+
+
+<mj-section padding="10px 0 0" background-color="#FFFFFF" width="80%">
+  <mj-group>
+    <!-- Lundi -->
+    <mj-column width="50%" padding="10px">
+      <mj-image src="./image/lundi.png" href="https://www.soignon.fr/recette-quiche-courgette-chevre-et-lardons/" width="250px" alt="Lundi - Quiche courgette, chèvre et lardons" padding="0" />
+    </mj-column>
+
+    <!-- Mardi -->
+    <mj-column width="50%" padding="10px">
+      <mj-image src="./image/mardi.png" href="https://www.soignon.fr/recette-cake-au-fromage-de-chevre-a-la-courgette-et-au-chorizo/" width="250px" alt="Mardi - Cake courgette et chèvre frais" padding="0" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+<mj-section padding="0 0 10px" background-color="#FFFFFF" width="80%">
+  <mj-group>
+    <!-- Mercredi -->
+    <mj-column width="50%" padding="10px">
+      <mj-image src="./image/mercredi.png" href="https://www.soignon.fr/recette-bagel-vegetarien-au-chevre/" width="250px" alt="Mercredi - Bagel végétarien au chèvre" padding="0" />
+    </mj-column>
+
+    <!-- Fin de semaine -->
+    <mj-column width="50%" padding="10px">
+      <mj-image src="./image/semaine.png" href="https://www.soignon.fr/recette-pizza-anti-gaspi-de-fin-dete/" width="250px" alt="Fin de semaine - Pizza anti-gaspi de fin d'été" padding="0" />
+    </mj-column>
+  </mj-group>
+</mj-section>
+
+
+
+
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#f1e0bf">
+    <mj-column width="100%">
+    <mj-image
+     src="./image/diviser-blanc.png"
+     alt="séparateur blanc"
+     width="1000px"
+     padding="0"/>
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <mj-section padding-top="20px"  background-color="#fdf7e7" padding-bottom="0px" >
+    <mj-column width="40%">
+    <mj-image
+     src="./image/starx5.png"
+     alt="Skyr Vanille"
+     width="100px"padding-bottom="30px">
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+<mj-section background-color="#fdf7e7"  padding="0">
+            <mj-column>
+                <mj-text padding="0" line-height="1.3" align="center" font-family="Chelsea Market" font-size="19px" font-weight="400" color="#028932">
+                    <strong>Et pour apporter encore plus de<br>gourmandise à chacune de ces recettes ?</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+<mj-section padding-bottom="20px" background-color="#fdf7e7">
+            <mj-column width="90%">
+                <mj-text  line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                    <strong>Le fromage de chèvre Soignon</strong> s'intègre facilement à toutes vos préparations, des plus simples aux plus créatives.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+
+
+
+
+<mj-section padding-top="0px"  background-color="#fdf7e7" padding-bottom="0px" padding-right="0px">
+    <mj-column width="50%">
+  <mj-image
+     src="./image/toute-nos-recettes-off.png"
+     href="https://www.soignon.fr/recettes-fromage-chevre/?tag=easy"
+     alt="Recette n1"
+     width="900px"padding-bottom="30px">
+
+    </mj-column>  
+        </mj-section>
+
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#FFFFFF">
+    <mj-column width="100%">
+    <mj-image
+     src="./image/stars-2.png"
+     alt="séparateur"
+     width="1000px"
+     padding="0"/>
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+ <mj-section padding-top="30px" padding-top="0px" background-color="#FFFFFF" padding-right="10px">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/conseil-lunchbox.png" 
+     href="https://www.soignon.fr/recette-lunchbox-au-quinoa-et-chevre-fondant/"
+     alt="Animation duo"
+     width="450pxpx"
+      />
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+<mj-section background-color="#FFFFFF" padding-top="3%" padding="0">
+            <mj-column>
+                <mj-text padding="0" line-height="1.3" align="center" font-family="Chelsea Market" font-size="20px" font-weight="400" color="#028932">
+                    <strong>Des déjeuners faciles à emporter partout !</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+<mj-section background-color="#FFFFFF" padding-bottom="5%">
+            <mj-column width="80%">
+                <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                    <strong>Pour une lunchbox équilibrée et gourmande, il suffit de quelques ingrédients :</strong>
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+
+ <mj-section padding-top="0px" padding-top="0px" background-color="#FFFFFF">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/visuel.png" 
+     href="https://www.soignon.fr/recette-lunchbox-au-quinoa-et-chevre-fondant/"
+     alt="Animation duo"
+     width="500px"
+      />
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+<mj-section background-color="#FFFFFF" padding-bottom="5%" >
+            <mj-column width="90%">
+                <mj-text  line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                   Une formule simple à décliner toute la semaine pour les<br>déjeuners au bureau, à l'université ou lors des activités des enfants.
+                </mj-text>
+            </mj-column>
+        </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+ <mj-section padding-top="0px" padding-bottom="5%" background-color="#FFFFFF" >
+    <mj-column width="40%">
+  <mj-image
+     src="./image/voir-la-recette-off.png" 
+     href="https://www.soignon.fr/recette-lunchbox-au-quinoa-et-chevre-fondant/"
+     alt="Animation duo"
+     width="200px"
+     padding="0" />
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#f6ebd5">
+    <mj-column width="100%">
+    <mj-image
+     src="./image/stars-3.png"
+     alt="séparateur"
+     width="1000px"
+     padding="0"/>
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <mj-section padding-top="20px" background-color="#fdf7e7" padding-bottom="0px" padding-right="0px">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/les-indispensables-rentree.png"
+     href="https://www.soignon.fr/fromages-chevre-classiques/"
+     alt="Prgramme de fidélité"
+     width="400px"padding-bottom="50px">
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#fdf7e7">
+    <mj-column width="100%">
+    <mj-text align="center" font-family="Chelsea Market" font-size="20px" color="#028932" font-weight="400">
+
+
+  Des produits pratiques<br>pour les journées bien remplies !
+    
+    </mj-text>
+    </mj-column>
+</mj-section>
+
+
+
+
+
+
+<mj-section padding="10px 0" background-color="#fdf7e7">
+  <!-- La Bûche Sainte-Maure -->
+  <mj-column width="45%" padding="10px">
+    <mj-image src="./image/produit-1.png" href="https://www.soignon.fr/la-buche-sainte-maure-200g/" alt="La Bûche Sainte-Maure" padding="0" />
+    <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+      Quelques rondelles suffisent<br>pour agrémenter une salade,<br>une quiche ou une tarte et<br>préparer un repas rapidement.
+    </mj-text>
+  </mj-column>
+
+  <!-- Les Mini-Bûches en filet -->
+  <mj-column width="45%" padding="10px">
+    <mj-image src="./image/produit-2.png" href="https://www.soignon.fr/les-mini-buches-en-filet-6x25g/" alt="Les Mini-Bûches en filet" padding="0" />
+    <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+      Parfaites pour une pause<br>gourmande, un goûter équilibré<br>ou pour compléter une lunchbox<br>en quelques secondes.
+    </mj-text>
+  </mj-column>
+
+  <!-- Le Fouetté de Chèvre -->
+  <mj-column width="45%" padding="10px">
+    <mj-image src="./image/produit-3.png" href="https://www.soignon.fr/le-fouette-de-chevre-nature-140g/" alt="Le Fouetté de Chèvre" padding="0" />
+    <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+      À tartiner sur du pain ou à<br>déguster avec des bâtonnets de<br>légumes pour une pause fraîche<br>et savoureuse.
+    </mj-text>
+  </mj-column>
+
+  <!-- Les Chèvres Chauds x4 -->
+  <mj-column width="45%" padding="10px">
+    <mj-image src="./image/produit-4.png" href="https://www.soignon.fr/les-chevres-chauds-x4/" alt="Les Chèvres Chauds x4" padding="0" />
+    <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+      L'allié idéal des salades gourmandes<br>et des repas express<br>prêts en quelques minutes.
+    </mj-text>
+  </mj-column>
+</mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <mj-section padding-top="20px" background-color="#fdf7e7" padding-bottom="0px" padding-right="0px">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/tout-nos-fromages-off.png"
+     href="https://www.soignon.fr/fromages-chevre-classiques/"
+     alt="Prgramme de fidélité"
+     width="250px"padding-bottom="30px">
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#f6ebd5">
+    <mj-column width="100%">
+    <mj-image
+     src="./image/divider-red.png"
+     alt="séparateur"
+     width="1000px"
+     padding="0"/>
+
+    </mj-column>
+    </mj-section>
+
+ <mj-section padding-top="20px" background-color="#d52935" padding-bottom="0px" padding-right="0px">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/reseaux-title.png"
+     href="https://www.facebook.com/Soignon/?locale=fr_FR"
+     alt="Prgramme de fidélité"
+     width="400px">
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+<mj-section padding-top="20px" padding-bottom="0px" background-color="#d52935">
+    <mj-column width="100%">
+    <mj-text align="center" font-family="Chelsea Market" font-size="16px" color="#fdf7e7" font-weight="400">
+
+
+  Suivez-nous sur :<br>Facebook, Instagram, Pinterest et Tiktok
+    
+    </mj-text>
+    </mj-column>
+</mj-section>
+
+
+
+
+
+
+<mj-section padding-top="20px" background-color="#d52935" padding-bottom="0px" padding-right="0px">
+    <mj-column width="100%">
+  <mj-image
+     src="./image/ECD4863B-B780-487B-A5A3-DA98AEBEB934.gif"
+     href="https://www.facebook.com/Soignon/?locale=fr_FR"
+     alt="Prgramme de fidélité"
+     width="400px"padding-bottom="0px">
+
+    </mj-column>
+    </mj-section>
+
+
+<mj-section padding-top="0px" padding-bottom="0px" background-color="#f6ebd5">
+    <mj-column width="100%">
+    <mj-image
+     src="./image/block.png"
+     alt="séparateur"
+     width="1000px"
+     padding="0"/>
+
+    </mj-column>
+    </mj-section>
+
+<mj-section background-color="#ffffff"padding-left="15%" padding-right="15%"> 
+    
+    
+    <mj-group>
+      <mj-column width="20%" vertical-align="middle">
+    <mj-image src="./image/facebook.png" href="https://www.facebook.com/Soignon/?locale=fr_FR" width='33px' height='33px' alt="Facebook" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="20%" vertical-align="middle">
+    <mj-image src="./image/instagram.png" href="https://www.instagram.com/soignon_officiel/?hl=fr" width='33px' height='33px' alt="Instagram" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="20%" vertical-align="middle">
+    <mj-image src="./image/youtube.png" href="https://www.youtube.com/@Soignonvideos" width='33px' height='25px' alt="YouTube" padding="0"/>
+    </mj-column>
+
+
+    <mj-column width="20%" vertical-align="middle">
+    <mj-image src="./image/pinterest.png" href="https://www.pinterest.com/soignon/" width='33px' height='33px' alt="Pinterest" padding="0"/>
+    </mj-column>
+
+    <mj-column width="20%" vertical-align="middle">
+    <mj-image src="./image/tiktok.png" href="https://www.tiktok.com/@soignon_officiel" width='33px' height='33px' alt="TikTok" padding="0"/>
+    </mj-column>
+    </mj-section>
+
+
+
+
+<mj-section padding-top="20px" background-color="#ffffff" padding-bottom="30px">
+    <mj-column width="50%">
+    <mj-image
+     src="./image/logo-soignon-footer.png"
+     href="https://www.soignon.fr/"
+     alt="Soignon"
+     width="120px"
+     padding="0px"/>
+
+    </mj-column>
+    </mj-section>
+
+
+
+
+
+<mj-section background-color='#ffffff' padding-top="0px">
+      <mj-column width="100%">
+        <mj-text padding="0" line-height="1.3" align="center" font-family="Open Sans" font-size="10px" color="#104542">
+
+<strong>Merci de ne pas répondre à ce message. <br>
+Vous recevez ce message car vous avez souscrit la Newsletter Brèves de Chèvre Soignon.<br>
+Pour vous désabonner, suivez ce lien. <br>
+Plus d’informations sur la gestion de vos données disponibles sur notre politique de confidentialité. <br></strong>
+
+        </mj-text>
+
+      </mj-column>
+    
+  </mj-section>
+
+
+
+
+
+
+
+
+
+
+
+    </mj-body>
+    </mjml>
+
+
+
+
+    

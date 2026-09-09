@@ -1,6 +1,14 @@
 <mjml>
   <mj-head>
     <mj-font name="Chelsea Market" href="https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap" />
+    <mj-style>
+      @media only screen and (max-width:480px) {
+        .mobile-side-padding {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+      }
+    </mj-style>
   </mj-head>
     <mj-body background-color="#f6e3b8">
 
@@ -122,7 +130,7 @@
     
     <mj-section padding-top="0px" padding-bottom="0px" background-color="#FFFFFF">
     <mj-column width="100%">
-    <mj-text align="center" font-family="Chelsea Market" font-size="22px" color="#028932" font-weight="400">
+    <mj-text align="center" font-family="Chelsea Market" font-size="22px" line-height="1.25" color="#028932" font-weight="400">
 
 
     <strong> 1 légumes à préparer, <br> 4 recettes gourmandes</strong>
@@ -300,7 +308,7 @@
 
 <mj-section background-color="#FFFFFF" padding-bottom="5%">
             <mj-column width="80%">
-                <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                <mj-text css-class="mobile-side-padding" padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
                     <strong>Pour une lunchbox équilibrée et gourmande, il suffit de quelques ingrédients :</strong>
                 </mj-text>
             </mj-column>
@@ -325,9 +333,9 @@
 
 
 
-<mj-section background-color="#FFFFFF" padding-bottom="5%" >
+<mj-section background-color="#FFFFFF" padding-top="0" padding-bottom="5%" >
             <mj-column width="90%">
-                <mj-text  line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
+                <mj-text padding-top="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
                    Une formule simple à décliner toute la semaine pour les<br>déjeuners au bureau, à l'université ou lors des activités des enfants.
                 </mj-text>
             </mj-column>
@@ -412,7 +420,7 @@
 
 <mj-section padding-top="0px" padding-bottom="0px" background-color="#fdf7e7">
     <mj-column width="100%">
-    <mj-text align="center" font-family="Chelsea Market" font-size="20px" color="#028932" font-weight="400">
+    <mj-text align="center" font-family="Chelsea Market" font-size="20px" line-height="1.25" color="#028932" font-weight="400">
 
 
   Des produits pratiques<br>pour les journées bien remplies !
@@ -437,7 +445,7 @@
 
   <!-- Les Mini-Bûches en filet -->
   <mj-column width="45%" padding="10px">
-    <mj-image src="./image/produit-2.png" href="https://www.soignon.fr/les-mini-buches-en-filet-6x25g/" alt="Les Mini-Bûches en filet" padding="0" />
+    <mj-image src="./image/produit-2.png" href="https://www.soignon.fr/les-mini-buches-en-filet-6x25g/" alt="Les Mini-Bûches en filet" padding="0 0 16px 16px" />
     <mj-text padding="0" line-height="1.6" align="center" font-family="Open Sans" font-size="15px" color="#2d2d2d">
       Parfaites pour une pause<br>gourmande, un goûter équilibré<br>ou pour compléter une lunchbox<br>en quelques secondes.
     </mj-text>
@@ -541,7 +549,7 @@
 <mj-section padding-top="20px" background-color="#d52935" padding-bottom="0px" padding-right="0px">
     <mj-column width="100%">
   <mj-image
-     src="./image/ECD4863B-B780-487B-A5A3-DA98AEBEB934.gif"
+     src="./image/6DC72168-9BB8-4DCE-A760-8BF2AEE82E8E.gif"
      href="https://www.facebook.com/Soignon/?locale=fr_FR"
      alt="Prgramme de fidélité"
      width="400px"padding-bottom="0px">
